@@ -120,6 +120,7 @@ YYEncodingType YYEncodingGetType(const char *typeEncoding);
 
 /**
  Property information.
+ 属性信息
  */
 @interface YYClassPropertyInfo : NSObject
 @property (nonatomic, assign, readonly) objc_property_t property; ///< property's opaque struct
@@ -143,6 +144,7 @@ YYEncodingType YYEncodingGetType(const char *typeEncoding);
 
 
 /**
+ class 类信息
  Class information for a class.
  */
 @interface YYClassInfo : NSObject
